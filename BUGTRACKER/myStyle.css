@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 2px;
+}
+
+h1 {
+    color: navy;  
+    text-align: center; 
+    align-self: stretch;
+    margin: 10px;
+}
+h2 {
+    margin: 20px;
+}
+
+input {
+    width: 280px;
+    height: 30px;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 4px;
+}
+select {
+    width: 280px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(74, 170, 238);
+    padding: 10px;
+    margin: 10px  10px;
+}
+form {
+   justify-content: center;
+   align-self: center;
+}
+.table_style {
+    margin: 20px;
+}
+textarea {
+    height: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.insert_textarea {
+    width: 1000px;
+}
+.update_textarea {
+    width: 1200px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(74, 170, 238);
+    height: 30px;
+    transition: background-color 0.5s;
+    border: 0px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0px 8px 0px 8px;
+    width: 130px;
+    margin: 5px;
+}
+.btn:hover {
+    background-color: #544f63;;
+    cursor: pointer;
+}
+.btn:active {
+    background-color:  #444053;
+    transition: none;
+    cursor: pointer;
+}
+.btn:disabled {
+    background-color: rgb(215, 215, 215);
+    pointer-events: none;
+}
+.bugListContainer {
+    width: 100%;
+    border: thin solid #444053;
+    border-radius: 5px;
+}
+.bugContainer {
+    border: thin solid lightslategray;
+    display: flex;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.bugContainer:hover {
+    border: thin solid rgb(74, 170, 238);
+    background-color: azure;
+}
+.infoCell {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    min-width: 125px;
+}
+.infoCell1 {
+    width: 125px;
+}
+.infoCell2 {
+    width: 700px;
+}
+.infoCell3 {
+    width: 200px;
+}
+.infoCell4 {
+    width: 250px;
+}
+.input-box {
+    /* родительский блок относительно которого будем формировать положение
+    тега label */
+    position: relative;
+    margin: 10px;
+  }
+  
+  label {
+    position: absolute;
+    /* смещение относительно родительского элемента 10px вверх от верхнего края и   10px влево */
+    top: -10px;
+    left: 10px;
+    background: #fff;
+    padding: 0 5px;
+  }
+  
+  .bug_id {
+    pointer-events: none;
+  }
+  .welcome {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .welcome_content {
+    justify-content: center;
+    align-content: center;
+  }
